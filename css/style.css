@@ -1,0 +1,146 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+  --stdwhite: #ffffff;
+  --stdblack:#000000;
+  --stdyellow: #C6B069;
+  --sec-7-color:#F9F9FF;
+}
+::selection {
+  background-color: var(--stdyellow);
+  color: var(--stdwhite);
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+a {
+text-decoration: none;
+}
+p , a , li{
+  font-size: 14px;
+}
+
+.cta-sec{
+  background-image:linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(../images/background/banner-bg.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.main-head{
+  font-size: 29px;
+}
+
+.main-btn{
+  background-color: var(--stdyellow);
+}
+.sec-div:hover{
+background-color: #000000;
+}
+.sec-div:hover .sec-2-h{
+  color: #C6B069;
+
+}
+.sec-div{
+  background-color: var(--stdwhite);
+}
+.sec-4{
+  background-color: var(--stdyellow);
+}
+
+.sec-5-img{
+  width: 50px;
+  height: 50px;
+}
+.sec-5-head{
+  color: var(--stdblack);
+}
+.sec-5-head:hover{
+  color: var(--stdyellow);
+  cursor: pointer;
+}
+.sec-6-main-div{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/call-action-bg.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec-6-btn{
+  background-color: var(--stdyellow);
+}
+.section7-btn:hover{
+color: var(--stdwhite);
+background-color: var(--stdyellow);
+}
+.sec-8{
+  background-color: #f9f9ff;
+}
+.sec-8-img{
+width: 159px;
+height: 100px;
+}
+.filimg div img:hover {
+  filter: grayscale(0%);
+}
+.filimg div img {
+  filter: grayscale(100%);
+}
+.foot2{
+  margin: 80px 0px 0px 0px;
+}
+
+.foot5{
+  background-color: var(--stdyellow);
+}
+
+.fs-6{
+  color: var(--stdyellow);
+}
+.f-input{
+  background-color: var(--sec-7-color);
+}
+
+.i-footer{
+  color: #C2D0CF;
+}
+
+.i-footer:hover{
+  color: var(--stdyellow);
+}
+@media (min-width: 768px){
+  .main-head{
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 992px) {
+  
+  .header-main-div{
+    width: 70%;
+  }
+/* section 2 */
+.sec-2-main-div{
+    width: 65%;
+}
+
+.sec-3-main-div{
+  width: 80%;
+}
+
+.sec-4-main-div{
+  width: 75%;
+}
+}
